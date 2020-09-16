@@ -75,6 +75,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 public class ImageCompare3 {	
+	
 	 static List<String> allXpaths = new ArrayList<>();
      static List<String> allTypes =new ArrayList<>();
      static List<String> allResults=new ArrayList<>();
