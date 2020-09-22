@@ -1,6 +1,6 @@
 // Java program to merge two 
 // files into third file 
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 import java.io.*; 
 
 public class FileMerge 

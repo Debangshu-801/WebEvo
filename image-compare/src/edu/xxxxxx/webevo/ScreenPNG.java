@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
   
 import java.awt.Rectangle;  
 import java.awt.image.BufferedImage;  

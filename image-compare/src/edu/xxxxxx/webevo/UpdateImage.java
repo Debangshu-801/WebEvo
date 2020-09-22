@@ -1,3 +1,4 @@
+package edu.xxxxxx.webevo;
 //import java.awt.image.BufferedImage;
 //import java.io.File;
 //import java.io.FileInputStream;
@@ -19,9 +20,9 @@
 //	        
 //	        File picture = new File(candidate);
 //	        BufferedImage sourceImg =ImageIO.read(new FileInputStream(picture)); 
-//	        System.out.println(String.format("%.1f",picture.length()/1024.0));// 源图大小
-//	        System.out.println(sourceImg.getWidth()); // 源图宽度
-//	        System.out.println(sourceImg.getHeight()); // 源图高度
+//	        System.out.println(String.format("%.1f",picture.length()/1024.0));// �?图大�?
+//	        System.out.println(sourceImg.getWidth()); // �?图宽度
+//	        System.out.println(sourceImg.getHeight()); // �?图高度
 // 
 //	        
 //	        

@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 import java.awt.HeadlessException;
 import java.awt.Point;
 import java.awt.Rectangle;
@@ -113,17 +113,17 @@ public class ImageCompare3 {
 //        WebDriver driver = new ChromeDriver();
           
           //FS added on 8/19/2020
-        System.setProperty("webdriver.gecko.driver", "C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\geckodriver.exe");
         DesiredCapabilities dc = new DesiredCapabilities();
 	      dc.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);	//accept popup automatically
 	      WebDriver driver = new FirefoxDriver(dc);
 	      
 	      
-	      newURL="file://C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\2020.html";
-	      oldURL="file://C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\2019.html";
-	      newImage="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\new.png";
-	      oldImage="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\old.png";
-	      String csvPath="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\ds1_results.csv";
+	      newURL="file://C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\2020.html";
+	      oldURL="file://C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\2019.html";
+	      newImage="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\new.png";
+	      oldImage="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\old.png";
+	      String csvPath="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\ds1_results.csv";
           
 //          newURL="file:///home/feishao/WebEvo/cases/homedepot/2020.html";  
 //          oldURL="file:///home/feishao/WebEvo/cases/homedepot/2018.html";
@@ -189,7 +189,7 @@ public class ImageCompare3 {
           		continue;
           	}
            
-            targetLocation="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\";
+            targetLocation="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\";
 //            targetLocation="/home/feishao/WebEvo/cases/homedepot/target_img";
             if(targetURL==oldURL) {
             	 processingTargetImage(driver,targetXpath,targetLocation,oldImage,i);
@@ -216,7 +216,7 @@ public class ImageCompare3 {
             		//System.out.println("adaptation system time outed!!");
             	}
                 driver.manage().window().maximize();
-                candidateLocation="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\candidate_img\\";
+                candidateLocation="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\candidate_img\\";
 //                candidateLocation = "/home/feishao/WebEvo/cases/homedepot/candidate_img";
                 new File(candidateLocation+"target"+i+"_folder").mkdirs();
                 if(candidateURL==oldURL) {
@@ -315,7 +315,7 @@ public class ImageCompare3 {
         eleWithText=new ArrayList<>();
         eleWithOutText=new ArrayList<>();
         elementsSim=new HashMap<>();
-        String targetPath="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+".png";
+        String targetPath="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+".png";
        
 //       String targetPath = "/home/feishao/WebEvo/cases/homedepot/target_img/target"+targetName+".png";
         System.out.println("target text:|"+targetText+"|");
@@ -358,7 +358,7 @@ public class ImageCompare3 {
        	          ScreenPNG.cutJPG(new FileInputStream(image),
              			   new FileOutputStream(location+"candidate"+(count)+".png"), candidateX,candidateY,candidateW,candidateH); 
        	       
-             	   String tempTargetPath="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+"_"+count+".png";
+             	   String tempTargetPath="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+"_"+count+".png";
 //             	   String tempTargetPath = "/home/feishao/WebEvo/cases/homedepot/target_img/target"+targetName+"_"+count+".png";
              	   copyFile(targetPath,tempTargetPath);
               
@@ -416,7 +416,7 @@ public class ImageCompare3 {
   	          ScreenPNG.cutJPG(new FileInputStream(image),
         			   new FileOutputStream(location+"candidate"+(count)+".png"), candidateX,candidateY,candidateW,candidateH); 
   	       
-        	   String tempTargetPath="C:\\Users\\fxs128\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+"_"+count+".png";
+        	   String tempTargetPath="C:\\Users\\fs\\Desktop\\PhD\\Rui Xu\\cases_new\\homedepot\\target_img\\target"+targetName+"_"+count+".png";
 //  	          String tempTargetPath="/home/feishao/WebEvo/cases/homedepot/target_img/target"+targetName+"_"+count+".png";
         	   copyFile(targetPath,tempTargetPath);
          

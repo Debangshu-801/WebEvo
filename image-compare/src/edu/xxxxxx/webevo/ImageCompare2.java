@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 import java.awt.HeadlessException;
 import java.awt.Point;
 import java.awt.Rectangle;

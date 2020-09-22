@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;

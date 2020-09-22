@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 	public class Test {
 
 		 private static int compare(String str, String target) {
@@ -59,7 +59,7 @@ package edu.cwru.webevo;
 
 		 public static void main(String[] args) {
 		 
-		  String str = "这是一个开心幸福的故事";
+		  String str = "这是一个开心幸�?的故事";
 		  String target = "这是一个故事";
 		  System.out.println("similarityRatio="+ getSimilarityRatio(str, target));
 		 }

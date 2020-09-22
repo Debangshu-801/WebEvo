@@ -1,4 +1,4 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;

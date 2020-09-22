@@ -1,4 +1,6 @@
-package edu.cwru.webevo;
+package edu.xxxxxx.webevo.test;
+
+
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -11,14 +13,13 @@ public class converToGrey {
     public static void main(String... args) {
 
         converToGrey cc=new converToGrey();
-        String path="/Users/ruixu/Desktop/resize1.png";
-        String outputpath="/Users/ruixu/Desktop/grey1.png";
+        String path="/Users/ruixu/Desktop/2.png";
        
-        cc.convert(path,outputpath);
+        cc.convert(path);
 
     }
-   
-    public static void convert(String path,String outputPath) {
+    String outputpath="/Users/ruixu/Desktop/output2.png";
+    public void convert(String path) {
     	try {
 
             File input = new File(path);
@@ -51,7 +52,7 @@ public class converToGrey {
                 }
             }
 
-            File output = new File(outputPath);
+            File output = new File(path);
             ImageIO.write(result, "png", output);
  }catch(NullPointerException e) {
             	
