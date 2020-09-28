@@ -9,7 +9,6 @@ import java.io.IOException;
 public class converToGrey {
 
     public static void main(String... args) {
-
         converToGrey cc=new converToGrey();
         String path="/Users/ruixu/Desktop/resize1.png";
         String outputpath="/Users/ruixu/Desktop/grey1.png";
