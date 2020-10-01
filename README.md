@@ -41,7 +41,7 @@ XPaths labeled as dynamic or static.
   
 To run the jar file:
 ```bash
-java -jar api-monitor-0.0.1-SNAPSHOT-jar-with-dependencies.jar -oldpage: <old version of the web page> -historypage1: <history1> -historypage2: <history3> -historypage3: <history3>
+java -jar api-monitor-0.0.1-SNAPSHOT-jar-with-dependencies.jar -oldpage: <old version of the web page> -historypage1: <history1> -historypage2: <history2> -historypage3: <history3>
 ```
 
 api-monitor-0.0.1-SNAPSHOT-jar-with-dependencies.jar is in [Non-content Change Detection](Non-contentChangeDetection).
